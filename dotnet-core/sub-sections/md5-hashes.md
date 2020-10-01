@@ -33,3 +33,10 @@ An Explanation of `ToString("x2")` is as follows:
 >
 > Microsoft documents the [standard numeric format strings](http://msdn.microsoft.com/en-us/library/dwhawy9k(v=vs.110).aspx) which generally work with all primitive numeric types' `ToString()` methods. This same pattern is used for other types as well: for example, [standard date/time format strings](https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-date-and-time-format-strings) can be used with `DateTime.ToString()`. - [StackOverFlow](https://stackoverflow.com/questions/20750062/what-is-the-meaning-of-tostringx2)
 
+
+
+---
+
+## Change Log
+
+- [01-10-2020] - Added Full Implementation of generating MD5 Hash

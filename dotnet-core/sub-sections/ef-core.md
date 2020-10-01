@@ -1,4 +1,4 @@
-# Entity Frame Core 
+# Entity Frame Core 3.1
 
 The following documentation highlights personal best found practices when working with EF Core.
 
@@ -135,3 +135,11 @@ This enforces a cleaner architecture.
 |                       |                                                              |                                         |
 |                       |                                                              |                                         |
 
+
+
+---
+
+## Change Log
+
+- [01-10-2020] - Added Overall guide to setup and of EF Core 3.1
+- [01-10-2020] - Added Table Entry for Base DbContext Design

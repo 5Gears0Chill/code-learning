@@ -87,3 +87,12 @@ Simply attaching this onto any `object` allows you to write neater `if` statemen
 
 ---
 
+
+
+---
+
+## Change Log
+
+- [01-10-2020] - Added Paged List Extension
+- [01-10-2020] - Added Distinct By Extension
+- [01-10-2020] - Added Is Null and Is Not Null Extensions

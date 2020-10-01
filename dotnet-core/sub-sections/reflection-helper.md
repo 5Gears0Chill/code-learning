@@ -89,3 +89,10 @@ int x = 5;
 var foo = ObjectCreator.NewInstance<Foo>(typeof(Foo), new object[] { x });
 ```
 
+
+
+---
+
+## Change Log
+
+- [01-10-2020] - Added Implementation of the Object Creator and an example usage case
