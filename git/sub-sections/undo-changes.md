@@ -22,3 +22,9 @@ Step 3: Once you are sure about the files that you would be deleting perform the
 $ git clean -fd
 ```
 
+---
+
+## Change Log
+
+- [29-09-2020] - Added methodology for undoing something in git
+

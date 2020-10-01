@@ -55,3 +55,9 @@ When you use the `git branch -m` (move), Git is also **updating** your tracking 
 ---
 
 **Note**: Git servers might allow you to rename Git branches using the web interface or external programs (like **Sourcetree**, etc.), but you have to keep in mind that in Git all the work is done locally, so it's recommended to use the above commands to the work.
+
+---
+
+## Change Log
+
+- [01-10-2020] - Added strategy for renaming branches

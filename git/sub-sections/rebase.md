@@ -114,6 +114,12 @@ Finally, decisions on merging and rebasing should be considered in the context o
 
 This article has been adapted from: [Free Code Camp](https://www.freecodecamp.org/news/an-introduction-to-git-merge-and-rebase-what-they-are-and-how-to-use-them-131b863785f/)
 
+---
+
+## Change Log
+
+- [01-10-2020] - Added Article around rebasing and merging
+
 
 
 
