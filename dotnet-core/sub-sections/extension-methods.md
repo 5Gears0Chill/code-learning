@@ -87,6 +87,17 @@ Simply attaching this onto any `object` allows you to write neater `if` statemen
 
 ---
 
+## Contains Any Extension
+
+String extensions prove to be useful in any scenario. Contains is an extension method provided by Microsoft to determine if a substring can be found in a parent string. Contains Any is a custom extension method that allows for an `IEnumerable` of substrings to be passed in for comparison.
+
+```c#
+public static bool ContainsAny(this string input, IEnumerable<string> containsKeywords, StringComparison comparisonType)
+{
+ 	return containsKeywords.Any(keyword => input.IndexOf(keyword, comparisonType) >= 0);
+}
+```
+
 
 
 ---
@@ -96,3 +107,4 @@ Simply attaching this onto any `object` allows you to write neater `if` statemen
 - [01-10-2020] - Added Paged List Extension
 - [01-10-2020] - Added Distinct By Extension
 - [01-10-2020] - Added Is Null and Is Not Null Extensions
+- [02-10-2020] - Added Contains Any Extension
