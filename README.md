@@ -7,7 +7,7 @@ Categories as listed below
 | ----------- | ------------------------------------ |
 | Git         | [Find Here](./git/README.md)         |
 | DOTNET Core | [Find Here](./dotnet-core/README.md) |
-|             |                                      |
+| Android     | [Find Here](./android/README.md)     |
 
 ---
 
