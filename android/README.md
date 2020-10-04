@@ -9,10 +9,10 @@ This is the opening section to the documentation of Android. Due to the large am
 
 Additionally Sections that fall under both categories and are not defined by the language implementation are listed below:
 
-| SUB SECTION | LINK                                             |
-| ----------- | ------------------------------------------------ |
-| Animations  | [Find Here](./sub-sections/animations/README.md) |
-|             |                                                  |
+| SUB SECTION | LINK                                |
+| ----------- | ----------------------------------- |
+| Animations  | [Find Here](./animations/README.md) |
+|             |                                     |
 
 ## Change Log
 
