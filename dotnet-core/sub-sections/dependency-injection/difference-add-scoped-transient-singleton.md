@@ -171,8 +171,12 @@ Observe which of the `OperationId` values varies within a request, and between r
 - Scoped objects are the same within a request, but different across different requests
 - Singleton objects are the same for every object and every request (regardless of whether an instance is provided in `ConfigureServices`)
 
+For more clarification, this example from [ASP.NET documentation](https://docs.asp.net/en/latest/fundamentals/dependency-injection.html#service-lifetimes-and-registration-options) shows the difference:
+
 ---
 
 ## Change Log
 
 - [04-10-2020] - Added Difference between scoped singleton and transient methods
+
+- [04-10-2020] - Added link to Microsoft Documentation.
