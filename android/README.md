@@ -12,12 +12,14 @@ Additionally Sections that fall under both categories and are not defined by the
 | SUB SECTION | LINK                                |
 | ----------- | ----------------------------------- |
 | Animations  | [Find Here](./animations/README.md) |
-|             |                                     |
+| Resources   | [Find Here](./resources/README.md)  |
+
+---
 
 ## Change Log
 
 - [04-10-2020] - Added Opening For Android with sections:
   - Android - Java
   - Android - Kotlin
-
 - [04-10-2020] - Added Animations
+- [06-10-2020] - Added Resources
