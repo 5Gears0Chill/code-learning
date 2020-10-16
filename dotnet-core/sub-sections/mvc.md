@@ -12,7 +12,7 @@ One of the more popular and powerful features of Dotnet Core is Microsoft's MVC 
 
 | Section                                            | Description                                                  | Link                                          |
 | -------------------------------------------------- | ------------------------------------------------------------ | --------------------------------------------- |
-| Updating the Default Search Points for Razor Pages | Razor searches for files in specific folders of your application. To Customise the Shared Folder this section might help you | [Find Here](./mvc/customize-shared-folder.md) |
+| Updating the Default Search Points for Razor Pages | Razor searches for files in specific folders of your application. To Customize the Shared Folder this section might help you | [Find Here](./mvc/customize-shared-folder.md) |
 |                                                    |                                                              |                                               |
 |                                                    |                                                              |                                               |
 
