@@ -98,7 +98,38 @@ public static bool ContainsAny(this string input, IEnumerable<string> containsKe
 }
 ```
 
+---
 
+## To Camel Case Extension
+
+Takes the first letter of a string and sets it to its lower format. Really... That's it... Nothing special here
+
+```c#
+ public static string ToCamelCase(this string str)
+ {
+     if (String.IsNullOrEmpty(str) || Char.IsLower(str, 0))
+         return str;
+
+     return Char.ToLowerInvariant(str[0]) + str.Substring(1);
+ }
+```
+
+---
+
+## Conditional Where Extension
+
+To avoid extensive filtering with `String.IsNullOrEmpty(myString)` we create an extension method to simplify this 
+```c#
+public static IQueryable<T> ConditionalWhere<T>(this IQueryable<T> source, Func<bool> condition, Expression<Func<T, bool>> predicate)
+{
+    if (condition())
+    {
+        return source.Where(predicate);
+    }
+    return source;
+}
+```
+Which can be used like this ` .ConditionalWhere(() => request.Name.IsNotNull(), x => x.Name == request.Name)` when filtering by a `Name` that may or may not be null
 
 ---
 
@@ -108,3 +139,5 @@ public static bool ContainsAny(this string input, IEnumerable<string> containsKe
 - [01-10-2020] - Added Distinct By Extension
 - [01-10-2020] - Added Is Null and Is Not Null Extensions
 - [02-10-2020] - Added Contains Any Extension
+- [16-10-2020] - Added To Camel Case Extension
+- [16-10-2020] - Added Conditional Where

@@ -1,6 +1,6 @@
 # MVC - All Things MVC
 
-One of the more popular and powerful features of Dotnet Core is Microsoft's MVC Capabilities. This section is to show case some of the useful things Ive learnt and thought it useful to share. Note this is not a full guide to what MVC is and how it works but rather, common things that took me quite a while to figure out. A collection of tricks and learnings.
+One of the more popular and powerful features of DotNet Core is Microsoft's MVC Capabilities. This section is to show case some of the useful things I've learnt and thought it useful to share. Note this is not a full guide to what MVC is and how it works but rather, common things that took me quite a while to figure out. A collection of tricks and learnings.
 
 ## Some Useful Links to Get You Started With MVC
 
@@ -13,7 +13,7 @@ One of the more popular and powerful features of Dotnet Core is Microsoft's MVC 
 | Section                                            | Description                                                  | Link                                          |
 | -------------------------------------------------- | ------------------------------------------------------------ | --------------------------------------------- |
 | Updating the Default Search Points for Razor Pages | Razor searches for files in specific folders of your application. To Customize the Shared Folder this section might help you | [Find Here](./mvc/customize-shared-folder.md) |
-|                                                    |                                                              |                                               |
+| Pagination - `Datatables.js` in MVC                | A Complex but efficient methodology to using `Datatables.js` within MVC pages for any dataset with simple integration Rules | [Find Here](./mvc/datatables.md)              |
 |                                                    |                                                              |                                               |
 
 
